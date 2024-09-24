@@ -100,3 +100,7 @@ encrypt_saml_response: yes
     ![Django success](assets/django_success.png)
 5. You should be redirected to http://localhost:8080/realms/django/account/
     ![Keycloak landing](assets/keycloak_landing.png)
+
+## PS
+
+The existing db.sqlite3.bak has a service provider for reference. Just rename it to db.sqlite3 and run the server.
